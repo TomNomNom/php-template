@@ -6,3 +6,7 @@ deps:
 
 dev-deps:
 	composer install --dev
+
+fresh:
+	rm -rf .git/
+	git init
