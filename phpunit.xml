@@ -1,0 +1,16 @@
+<phpunit bootstrap="vendor/autoload.php">
+  <testsuites>
+    <testsuite name="Compat">
+      <directory>Test/Compat</directory>
+    </testsuite>
+    <testsuite name="Unit">
+      <directory>Test/Unit</directory>
+    </testsuite>
+    <testsuite name="Integration">
+      <directory>Test/Integration</directory>
+    </testsuite>
+    <testsuite name="FullStack">
+      <directory>Test/FullStack</directory>
+    </testsuite>
+  </testsuites>
+</phpunit>
